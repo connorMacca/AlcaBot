@@ -1,1 +1,1 @@
-<img src="flowers.jpg" alt="flowers">
+<img src="https://github.com/connorMacca/AlcaBot/blob/main/RumNCokeQR-CODE.jpg" alt="Rum & Coke">
