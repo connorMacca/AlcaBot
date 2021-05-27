@@ -1,7 +1,33 @@
 <!DOCTYPE html>
+<!--
 <html>
   <body>
     <img src="https://raw.githubusercontent.com/connorMacca/AlcaBot/main/RumNCokeQR-CODE.jpg" alt="Rum & Coke">
   </body>
-</html> 
+</html>
+-->
+
+
+<html>
+  <head>
+    <title>AlcaBot Menu</title>
+    <style>
+             #image{
+                  display:none;
+     </style>
+  </head>
+    <body>
+        <div>
+             <img src="https://raw.githubusercontent.com/connorMacca/AlcaBot/main/RumNCokeQR-CODE.jpg" id="RumNCoke" alt="Rum & Coke" />
+        </div>
+
+         <button type="button" onclick="imageShow()">Rum and Coke</button>
+
+         <script>
+               function imageShow(){
+                      document.getElementById('RumNCoke').style.display = "block";       
+                      }
+         </script>
+    </body>
+</html>
 
