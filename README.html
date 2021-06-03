@@ -42,7 +42,19 @@
         </div>
      
         <button type="button" onclick="imageShow2()">Vodka and Lemonade</button>
+     
+        <div class="text-center">
+             <img src="https://raw.githubusercontent.com/connorMacca/AlcaBot/blob/main/WebGinTonic.png" id="GinTonic" alt="Gin & Tonic" style="display: none;" />
+        </div>     
 
+        <button type="button" onclick="imageShow3()">Gin and Tonic</button>
+     
+        <div class="text-center">
+             <img src="https://raw.githubusercontent.com/connorMacca/AlcaBot/blob/main/WebVodkaRaspberry.png" id="VodkaRaspberry" alt="Vodka & Raspberry" style="display: none;" />
+        </div>     
+
+        <button type="button" onclick="imageShow4()">Gin and Tonic</button>
+     
          <script type="text/javascript">
                function imageShow(){
                       VarButton1 = document.getElementById('RumNCoke').style.display;
@@ -53,8 +65,35 @@
                                 document.getElementById('RumNCoke').style.display = "none";
                            }
                       }
+          
                function imageShow2(){
-                      document.getElementById('VodkaLemonade').style.display = "block";
+                      VarButton2 = document.getElementById('VodkaLemonade').style.display;
+                           if (VarButton2 === "none") {
+                                document.getElementById('VodkaLemonade').style.display = "block";
+                           }
+                           if (VarButton2 === "block") {
+                                document.getElementById('VodkaLemonade').style.display = "none";
+                           }
+                      }
+          
+               function imageShow3(){
+                      VarButton3 = document.getElementById('GinTonic').style.display;
+                           if (VarButton3 === "none") {
+                                document.getElementById('GinTonic').style.display = "block";
+                           }
+                           if (VarButton3 === "block") {
+                                document.getElementById('GinTonic').style.display = "none";
+                           }
+                      }
+          
+               function imageShow4(){
+                      VarButton4 = document.getElementById('VodkaRaspberry').style.display;
+                           if (VarButton4 === "none") {
+                                document.getElementById('VodkaRaspberry').style.display = "block";
+                           }
+                           if (VarButton4 === "block") {
+                                document.getElementById('VodkaRaspberry').style.display = "none";
+                           }
                       }
          </script>
     </body>
