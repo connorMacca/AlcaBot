@@ -45,7 +45,13 @@
 
          <script type="text/javascript">
                function imageShow(){
-                      document.getElementById('RumNCoke').style.display = "block";
+                      VarButton1 = document.getElementById('RumNCoke').style.display;
+                           if (VarButton1 === "none") {
+                                document.getElementById('RumNCoke').style.display = "block";
+                           }
+                           if (VarButton1 === "block") {
+                                document.getElementById('RumNCoke').style.display = "none";
+                           }
                       }
                function imageShow2(){
                       document.getElementById('VodkaLemonade').style.display = "block";
